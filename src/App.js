@@ -36,6 +36,8 @@ class App extends Component {
           placeholder="Search Employee"
           handleChange={e => this.setState({ searchField: e.target.value })} />
         <CardList employeeData={filteredData} />
+
+        
         <Table/>
       </div>
     )
